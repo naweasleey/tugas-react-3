@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+a {
+    width: 220px;
+    height: 350px;
+    background-color:plum;
+}
+
+p{
+    font-weight: bolder;
+    margin-left: 15px;
+    font-family:'Century Gothic';
+}
+
