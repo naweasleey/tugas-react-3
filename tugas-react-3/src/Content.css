@@ -18,3 +18,13 @@ p{
     font-family:'Century Gothic';
 }
 
+.card {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    margin: auto;
+    justify-content: space-around;
+    margin-left: 25%;
+
+}
+
