@@ -3,7 +3,7 @@ const CardProduct = (props) => {
         <div style={{
             height: 150,
             width: 150,
-            backgroundColor: grey,
+            backgroundColor: "grey",
             borderRadius: 5,
             padding: 20,
             color: "black"
