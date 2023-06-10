@@ -26,6 +26,7 @@ const Dashboard = () => {
     return (
 
         <div> {
+            //LIST RENDERING
             listProduk.map((value, index) => {
                 return <CardProduct key={index} namaProduk={value.namaProduk} hargaProduk={value.hargaProduk} />
             })

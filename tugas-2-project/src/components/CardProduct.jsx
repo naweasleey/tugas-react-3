@@ -1,12 +1,13 @@
-import React from 'react'
-
-const CardProduct = () => {
+const CardProduct = (props) => {
     return (
         <div style={{
             height: 150,
-            width: 50,
+            width: 150,
             backgroundColor: grey,
-            backgroundRadius: 4,
+            borderRadius: 5,
+            padding: 20,
+            color: "black"
+
             
         }}>
             <h2>{props.namaProduk}Nama Produk</h2>
