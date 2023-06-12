@@ -1,5 +1,5 @@
 import React from 'react'
-import Member from './Member';
+import Member from './components/Member';
 import './App.css'
 const members = [
   {
